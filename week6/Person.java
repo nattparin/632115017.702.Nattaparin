@@ -1,5 +1,5 @@
 package week6;
-
+//nattaparin somnuek 6302115017
 public class Person {
    String name;
    int age;

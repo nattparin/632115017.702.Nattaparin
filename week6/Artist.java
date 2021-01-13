@@ -1,5 +1,5 @@
 package week6;
-
+//nattaparin somnuek 6302115017
 public class Artist extends Person{
     String genre;
     String genre1;

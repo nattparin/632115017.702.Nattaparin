@@ -1,5 +1,5 @@
 package week6;
-
+//nattaparin somnuek 6302115017
 public class Main {
     public static void main(String[] args) {
         Artist art = new Artist("smart", 18,"male");
