@@ -17,6 +17,10 @@ public class Fish extends Pet{
     public void Swimspeed(){
         System.out.print(speed);
     }
+    public void swimtothesea(){
+        System.out.println( name+" swim to the sea");
+        
+    }
     public void Salwater(){
         System.out.println(" Saltwater "+Saltwater);
         

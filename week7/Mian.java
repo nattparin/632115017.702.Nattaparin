@@ -20,17 +20,17 @@ public class Mian {
         fish.Size();
         fish.speed=" Fast";
         fish.Swimspeed();
+        fish.swimtothesea();
         fish.Saltwater = true;
         fish.Salwater();
 
         Bird bird = new Bird("Bobby", 5,"owl", "brown");
         System.out.println("My Brid");
         bird.introduce();
-        bird.country="Thailand";
+        bird.country=true;
         bird.Country();
-        bird.speak=" owl owl";
+        bird.speak=" owl owl ";
         bird.Speak();
-        bird.fly=true;
         bird.CanFly();
     }
 }
