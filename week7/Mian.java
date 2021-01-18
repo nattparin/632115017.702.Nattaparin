@@ -27,10 +27,10 @@ public class Mian {
         Bird bird = new Bird("Bobby", 5,"owl", "brown");
         System.out.println("My Brid");
         bird.introduce();
-        bird.country=true;
-        bird.Country();
+        bird.CanFly();
         bird.speak=" owl owl ";
         bird.Speak();
-        bird.CanFly();
+        bird.country=true;
+        bird.Country();
     }
 }
