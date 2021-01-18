@@ -12,7 +12,7 @@ public class Bird extends Pet {
         this.Color = Color;
     }
     public void Country(){
-        System.out.print("Thailand"+country);
+        System.out.print("Thailand: "+country);
     }
    
     public void Speak(){
