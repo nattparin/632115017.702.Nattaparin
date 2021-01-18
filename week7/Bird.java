@@ -20,6 +20,6 @@ public class Bird extends Pet {
         
     }
     public void CanFly(){
-        System.out.print( name+" is can fly ");
+        System.out.print("My brid "+name+" is can fly ");
     }
 } 
