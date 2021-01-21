@@ -1,26 +1,32 @@
 package week7;
 
 
+
 public class Bicycle  {
- public int speed;  
-    public Bicycle(int speed){
-    if(speed>99)
-        this.speed=99;
-    else
-        this.speed=speed;
+    private int currentSpeed;
+    final private static int SPEEDUPDOWN = 5;
+    public Bicycle(){
+        
     }
-    public void SpeedUp() {
-        if(speed>99)
-            speed=99;
-        else
-            speed+=5;
-        System.out.println("Speed UP");
+    public void setSpeed(int setCurrentSpeed){
+        this.currentSpeed = setCurrentSpeed;
     }
-    public void Break(){
-        speed -=5;
-        System.out.println("Break");
+    public int getSpeed(){
+        return currentSpeed;
     }
-    public void chack(){
-        System.out.println("Speed is "+speed);
-    } 
+    public int getConstanceSpeed(){
+        return SPEEDUPDOWN;
     }
+    public void DisplaySpeed(){
+        System.out.println(getSpeed()+" km/h.");
+    }
+    public boolean checkSpeed(int getspeed){
+        if(getspeed > 99){
+            System.out.println("can't go 99");
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+}

@@ -1,17 +1,17 @@
 package week7;
 
-public class MountainBike extends Bicycle {
-    public MountainBike(int currentSpeed){
+public class Bike extends Bicycle{
+    public Bike(int currentSpeed){
         setSpeed(currentSpeed);
-        System.out.println("Mountain Bike");
+        System.out.println("Normal Bike");
         if(checkSpeed(getSpeed())){
             setSpeed(getSpeed()-currentSpeed);
         }
     }
-    public void gear(int gear){
-        setSpeed(getSpeed()+(gear* getConstanceSpeed()));
+    public void SpeedUp(){
+        setSpeed(getSpeed()+ getConstanceSpeed());
         if (checkSpeed(getSpeed())) {
-            setSpeed(getSpeed() - (gear * getConstanceSpeed()));
+            setSpeed(getSpeed() - getConstanceSpeed());
         }
     }
 

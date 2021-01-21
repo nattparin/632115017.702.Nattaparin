@@ -1,20 +1,19 @@
 package week7;
 
-public class MainBicycle {
+public class MainBicycle  {
     public static void main(String[] args) {
-        Bicycle bike = new Bicycle(10);
+        Bike bike = new Bike(10);
         bike.SpeedUp();
-        bike.chack();
         bike.Break();
-        bike.chack();
-
-        System.out.println();
-
-        MountainBike Mbike = new MountainBike(10);
-        Mbike.gear(3);
-        Mbike.Speedup();
-        Mbike.chack();
-        Mbike.Break1();
-        Mbike.chack();
+        bike.SpeedUp();
+        bike.DisplaySpeed();
+        MountainBike bike2 = new MountainBike(10);
+        bike2.gear(2);
+        bike2.Break();
+        bike2.DisplaySpeed();
+        bike2.gear(3);
+        bike2.DisplaySpeed();
+        bike2.gear(14);
+        bike2.DisplaySpeed();
     }
 }
