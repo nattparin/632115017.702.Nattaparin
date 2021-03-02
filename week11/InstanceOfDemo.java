@@ -1,4 +1,4 @@
-package weeek11;
+package week11;
 
 public class InstanceOfDemo {
     public static void main(String[] args) {
