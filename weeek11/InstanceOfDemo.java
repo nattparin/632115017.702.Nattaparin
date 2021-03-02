@@ -19,4 +19,4 @@ public class InstanceOfDemo {
 }
 class A{}
 class B extends A{}
-class C extends b{}
+class C extends B{}
